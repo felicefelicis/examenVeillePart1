@@ -24,6 +24,7 @@ ellipse {
 }
 
 .flexbox{
+	margin-left: -15%;
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
