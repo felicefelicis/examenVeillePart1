@@ -1,7 +1,11 @@
-#groupeContenurEllipseCroix{}
+ellipse {
+	stroke-dasharray: 250;
+	stroke-dashoffset: 250;
+	animation: borderAnim 1.5s linear infinite;
+}
 
-#ellipseCroix{
-	position: absolute;
+.ellipseCroix{
+	position: relative;
   	top: 0;
   	left: 0;
 	width: 300px;
@@ -10,13 +14,14 @@
 }
 
 #grosCercle{
-	stroke-width:none;
+	stroke-width:3px;
+	stroke:#ffaaaa;
 	fill:#56ffaa;
 }
 
 
 #Ovale_1, #Ovale_2{
-	/*stroke:#ffaaaa;*/
+	stroke:#ffaaaa;
 	stroke-width:3px;
 	fill:#aaffd4;
 }
@@ -41,3 +46,12 @@
   }
 }
 
+
+@keyframes borderAnim {
+	from {
+		stroke-dashoffset: 250;
+	}
+	to {
+		stroke-dashoffset: 0;
+	}
+}
