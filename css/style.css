@@ -1,0 +1,20 @@
+#ellipseCroix{
+	width: 300px;
+	height: 300px;
+}
+
+#grosCercle{
+	stroke-width:none;
+	fill:#56ffaa;
+}
+
+
+#Ovale_1, #Ovale_2{
+	/*stroke:#ffaaaa;*/
+	stroke-width:3px;
+	fill:#aaffd4;
+}
+
+#Ovale_2{
+
+}

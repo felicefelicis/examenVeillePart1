@@ -1,0 +1,7 @@
+  <svg id="ellipseCroix">
+   <g>
+    <ellipse id="grosCercle" ry="89" rx="89" cy="150" cx="150"/>
+    <ellipse id="Ovale_1" ry="119.390243" rx="27.5" cy="151.341473" cx="148.507813"  />
+    <ellipse id="Ovale_2" transform="rotate(90 148.5078125,151.34147644042972)" ry="119.390243" rx="27.5"  cy="151.341473" cx="148.507813"/>
+   </g>
+  </svg>
