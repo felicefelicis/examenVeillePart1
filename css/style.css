@@ -1,13 +1,10 @@
 ellipse {
 	stroke-dasharray: 250;
 	stroke-dashoffset: 250;
-	animation: borderAnim 1.5s linear infinite;
+	animation: borderanim 1.5s linear infinite;
 }
 
 .ellipseCroix{
-	position: relative;
-  	top: 0;
-  	left: 0;
 	width: 300px;
 	height: 300px;
 	animation: rotationellipsecroix 2s linear infinite;
@@ -33,9 +30,21 @@ ellipse {
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex-flow: row wrap;
-	justify-content: space-around
+	justify-content: center;
+	align-items: center;
 }
 
+.flexbox2{
+	margin-top:10%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
 
 @keyframes rotationellipsecroix {
   0% {
@@ -47,7 +56,7 @@ ellipse {
 }
 
 
-@keyframes borderAnim {
+@keyframes borderanim {
 	from {
 		stroke-dashoffset: 250;
 	}
